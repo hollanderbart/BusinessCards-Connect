@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.businesscards"
+    namespace "com.businesscards-connect"
     defaultConfig {
-        applicationId "com.businesscards"
+        applicationId "com.businesscards-connect"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
