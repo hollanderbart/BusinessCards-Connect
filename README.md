@@ -13,3 +13,6 @@ React Native project.
 
 The Connect SDK is a JavaScript library that allows you to interact with the
 Connect API.
+
+Use this steps to remove the duplicate header error:
+https://github.com/maksimlya/react-native-fast-encoder/issues/4
