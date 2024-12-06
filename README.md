@@ -16,3 +16,22 @@ Connect API.
 
 Use this steps to remove the duplicate header error:
 https://github.com/maksimlya/react-native-fast-encoder/issues/4
+
+Logs:
+
+```
+ (NOBRIDGE) LOG  {"$typeName": "connectrpc.eliza.v1.IntroduceResponse", "sentence": "Hi John Doe. I'm Eliza."}
+ (NOBRIDGE) LOG  Eliza introduce stream connected
+ (NOBRIDGE) LOG  Trying to cancel the stream
+ (NOBRIDGE) LOG  {"$typeName": "connectrpc.eliza.v1.IntroduceResponse", "sentence": "Before we begin, John Doe, let me tell you something about myself."}
+ (NOBRIDGE) LOG  Eliza introduce stream connected
+ (NOBRIDGE) LOG  Trying to cancel the stream
+ (NOBRIDGE) LOG  {"$typeName": "connectrpc.eliza.v1.IntroduceResponse", "sentence": "I was one of the first programs capable of attempting the Turing test."}
+ (NOBRIDGE) LOG  Eliza introduce stream connected
+ (NOBRIDGE) LOG  Trying to cancel the stream
+ (NOBRIDGE) LOG  {"$typeName": "connectrpc.eliza.v1.IntroduceResponse", "sentence": "How are you feeling today?"}
+ (NOBRIDGE) LOG  Eliza introduce stream connected
+ (NOBRIDGE) LOG  Trying to cancel the stream
+ (NOBRIDGE) LOG  [FastEncoder] (assureJSILoaded) JSI install: Installed
+ (NOBRIDGE) ERROR  undefined
+```
