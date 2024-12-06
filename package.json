@@ -1,11 +1,12 @@
 {
-  "name": "BusinessCards",
+  "name": "BusinessCards-Connect",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
+    "generate": "buf generate",
     "start": "react-native start",
     "test": "jest"
   },
@@ -13,9 +14,15 @@
     "react": "18.3.1",
     "react-native": "0.76.3",
     "react-native-draglist": "^3.6.2",
-    "react-native-haptic-feedback": "^2.3.3"
+    "react-native-haptic-feedback": "^2.3.3",
+    "expo": "^52.0.17"
   },
   "devDependencies": {
+    "@connectrpc/connect": "2.0.0",
+    "@connectrpc/connect-web": "2.0.0",
+    "@protobuf-ts/runtime": "^2.9.4",
+    "@protobuf-ts/runtime-rpc": "^2.9.4",
+    "@bufbuild/protobuf": "^2.2.0",
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
     "@babel/runtime": "^7.25.0",
