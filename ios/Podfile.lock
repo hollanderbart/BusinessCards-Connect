@@ -1277,27 +1277,6 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - react-native-fast-encoder (0.1.12):
-    - DoubleConversion
-    - glog
-    - hermes-engine
-    - RCT-Folly (= 2024.01.01.00)
-    - RCTRequired
-    - RCTTypeSafety
-    - React-Core
-    - React-debug
-    - React-Fabric
-    - React-featureflags
-    - React-graphics
-    - React-ImageManager
-    - React-NativeModulesApple
-    - React-RCTFabric
-    - React-rendererdebug
-    - React-utils
-    - ReactCodegen
-    - ReactCommon/turbomodule/bridging
-    - ReactCommon/turbomodule/core
-    - Yoga
   - React-nativeconfig (0.76.4)
   - React-NativeModulesApple (0.76.4):
     - glog
@@ -1634,7 +1613,6 @@ DEPENDENCIES:
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - React-microtasksnativemodule (from `../node_modules/react-native/ReactCommon/react/nativemodule/microtasks`)
-  - react-native-fast-encoder (from `../node_modules/react-native-fast-encoder`)
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -1755,8 +1733,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   React-microtasksnativemodule:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/microtasks"
-  react-native-fast-encoder:
-    :path: "../node_modules/react-native-fast-encoder"
   React-nativeconfig:
     :path: "../node_modules/react-native/ReactCommon"
   React-NativeModulesApple:
@@ -1859,7 +1835,6 @@ SPEC CHECKSUMS:
   React-logger: 2c393ba3d92c733db9979116ff61023b8ebe6d31
   React-Mapbuffer: 5c2d7f074644540a2b49dea3b004942c0d7bd758
   React-microtasksnativemodule: f180ef6513443015865d21c855d0d122fb20b867
-  react-native-fast-encoder: 36f3188a1408829d3f127821cae12ee93bf440f7
   React-nativeconfig: 656865515fa56dc00fad332cfcc009604fa74a1a
   React-NativeModulesApple: 4c2bf3380492319ebc763e273a8ca55aa4d699a1
   React-perflogger: 1991337a4cc9bcdbf2ecac52e827a3c1533064cf

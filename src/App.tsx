@@ -1,9 +1,9 @@
 import React from 'react';
 import BusinessCardList from './BusinessCardList/BusinessCardList';
-import { useElizaIntroduceStream } from './hooks/useElizaIntroduceStream';
+import { useHttpDrip } from './hooks/useHttpDrip';
 
 function App() {
-  useElizaIntroduceStream();
+  useHttpDrip();
 
   return <BusinessCardList />;
 }

@@ -11,6 +11,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@bacons/text-decoder": "^0.0.0",
     "@connectrpc/connect": "2.0.0",
     "@connectrpc/connect-web": "2.0.0",
     "@protobuf-ts/runtime": "^2.9.4",
@@ -19,7 +20,6 @@
     "react": "18.3.1",
     "react-native": "0.76.4",
     "react-native-draglist": "^3.8.0",
-    "react-native-fast-encoder": "^0.1.12",
     "react-native-haptic-feedback": "^2.3.3"
   },
   "devDependencies": {
