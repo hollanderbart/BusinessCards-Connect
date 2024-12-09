@@ -1,10 +1,9 @@
 import { createConnectTransport } from '@connectrpc/connect-web';
-import { fetch } from 'expo/fetch';
+import { fetch as expoFetch } from 'expo/fetch';
 
-const baseUrl = 'https://demo.connectrpc.com';
+export const baseUrl = 'https://demo.connectrpc.com';
 
 export const elizaTransport = createConnectTransport({
-  // @ts-ignore
-  fetch: fetch,
+  fetch: expoFetch as unknown as typeof globalThis.fetch,
   baseUrl,
 });
