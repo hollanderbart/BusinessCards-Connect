@@ -1,9 +1,6 @@
-version: v2
-
+# This template is to generate connect-web artifacts for the Eliza demo.
+version: v1
 plugins:
-  - remote: buf.build/bufbuild/es:v2.0.0
-    out: src/types
-    opt: target=ts
-  - remote: buf.build/bufbuild/connect-web:v0.8.6
+  - name: es
     out: src/types
     opt: target=ts
