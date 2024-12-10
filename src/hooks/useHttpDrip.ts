@@ -1,10 +1,11 @@
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 import { fetch } from 'expo/fetch';
-import { baseUrl } from '../api/service-transport';
 import '@bacons/text-decoder/install';
 
 const abortController = new AbortController();
 const textDecoder = new TextDecoder();
+const baseUrl =
+  'https://httpbin.org/drip?numbytes=10&duration=10&delay=1&code=200';
 
 export const useHttpDrip = () => {
   const connect = async () => {
