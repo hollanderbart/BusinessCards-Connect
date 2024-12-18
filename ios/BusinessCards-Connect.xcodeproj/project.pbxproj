@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F2B0176AAE72FEDB952E273 /* Pods_BusinessCards_Connect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1804D13EA1CECD01C496AB93 /* Pods_BusinessCards_Connect.framework */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		18A47708BA4938CB5E7CA081 /* libPods-BusinessCards-Connect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5189F68F61B65EFD0CDD04C /* libPods-BusinessCards-Connect.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		959C11BCB527F3A2F4257383 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E633D7C665CF01BC1ABC72A2 /* PrivacyInfo.xcprivacy */; };
 		A532EB4F04457BAC85B7B47C /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F2ABDC78F14988C3F737E3 /* ExpoModulesProvider.swift */; };
@@ -23,13 +23,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "BusinessCards-Connect/Images.xcassets"; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "BusinessCards-Connect/Info.plist"; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "BusinessCards-Connect/main.m"; sourceTree = "<group>"; };
-		1804D13EA1CECD01C496AB93 /* Pods_BusinessCards_Connect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BusinessCards_Connect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2E5F8D1BC31FB0CEA80775 /* Pods-BusinessCards-Connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusinessCards-Connect.release.xcconfig"; path = "Target Support Files/Pods-BusinessCards-Connect/Pods-BusinessCards-Connect.release.xcconfig"; sourceTree = "<group>"; };
 		63F2ABDC78F14988C3F737E3 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-BusinessCards-Connect/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "BusinessCards-Connect/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		E633D7C665CF01BC1ABC72A2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = "BusinessCards-Connect/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
 		E8AE0458CAA5788171C6F382 /* Pods-BusinessCards-Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusinessCards-Connect.debug.xcconfig"; path = "Target Support Files/Pods-BusinessCards-Connect/Pods-BusinessCards-Connect.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F5189F68F61B65EFD0CDD04C /* libPods-BusinessCards-Connect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BusinessCards-Connect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F2B0176AAE72FEDB952E273 /* Pods_BusinessCards_Connect.framework in Frameworks */,
+				18A47708BA4938CB5E7CA081 /* libPods-BusinessCards-Connect.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				1804D13EA1CECD01C496AB93 /* Pods_BusinessCards_Connect.framework */,
+				F5189F68F61B65EFD0CDD04C /* libPods-BusinessCards-Connect.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
