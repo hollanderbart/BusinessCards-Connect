@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@react-navigation/native": "^7.0.14",
-    "expo": "~52.0.18",
+    "expo": "~52.0.19",
     "react": "18.3.1",
     "react-native": "0.76.5",
     "react-native-draglist": "^3.8.0",
@@ -22,17 +22,18 @@
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
     "@bufbuild/buf": "^1.47.2",
-    "@bufbuild/protobuf": "^2.2.2",
-    "@bufbuild/protoc-gen-es": "^2.2.2",
+    "@bufbuild/protobuf": "^2.2.3",
+    "@bufbuild/protoc-gen-es": "^2.2.3",
     "@connectrpc/connect-web": "^2.0.0",
     "@connectrpc/connect": "^2.0.0",
-    "@react-native/metro-config": "^0.76.0",
+    "@react-native/metro-config": "^0.76.5",
     "@react-native-community/cli-platform-android": "16.0.0",
     "@react-native-community/cli-platform-ios": "16.0.0",
+    "@react-native/typescript-config": "^0.76.5",
     "@react-native-community/cli": "16.0.0",
     "@types/react": "~18.3.12",
     "eslint": "^8.57.1",
-    "prettier": "^3.4.1",
+    "prettier": "^3.4.2",
     "typescript": "^5.7.2"
   }
 }
