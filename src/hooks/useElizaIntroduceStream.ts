@@ -12,12 +12,11 @@ export const useElizaIntroduceStream = () => {
       },
       (response) => {
         console.log(response);
-        console.log('Eliza introduce stream connected');
         console.log('Trying to cancel the stream');
         unsubscribeRef.current?.();
       },
       (error) => {
-        console.error(error);
+        console.error(error?.rawMessage);
       },
     );
   };
